@@ -1101,6 +1101,7 @@ const triggerSet: TriggerSet<Data> = {
         output.responseOutputStrings = {
           lb3: {
             en: 'LB3!',
+            cn: '坦克 LB!',
           },
         };
 
