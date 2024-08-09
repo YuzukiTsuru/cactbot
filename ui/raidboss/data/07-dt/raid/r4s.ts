@@ -725,7 +725,19 @@ const triggerSet: TriggerSet<Data> = {
       type: 'Ability',
       netRegex: { id: '9786' },
       condition: Conditions.targetIsYou(),
-      run: (data) => data.witchgleamSelfCount++,
+      alertText: (data, _matches, output) => {
+        data.witchgleamSelfCount++;
+        if (data.condenserTimer === 'long') {
+          return output.witchgleamTimes!({ times: data.witchgleamSelfCount - 1 });
+        }
+        return output.witchgleamTimes!({ times: data.witchgleamSelfCount });
+      },
+      outputStrings: {
+        witchgleamTimes: {
+          en: '${times}',
+          cn: '${times}',
+        },
+      },
     },
     {
       id: 'R4S Electrical Condenser Debuff Expiring',
