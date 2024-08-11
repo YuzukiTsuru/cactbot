@@ -725,7 +725,7 @@ const triggerSet: TriggerSet<Data> = {
       type: 'Ability',
       netRegex: { id: '9786' },
       condition: Conditions.targetIsYou(),
-      alertText: (data, _matches, output) => {
+      infoText: (data, _matches, output) => {
         data.witchgleamSelfCount++;
         if (data.condenserTimer === 'long') {
           return output.witchgleamTimes!({ times: data.witchgleamSelfCount - 1 });
