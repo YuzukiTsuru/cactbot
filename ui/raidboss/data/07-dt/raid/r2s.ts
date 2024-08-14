@@ -118,7 +118,7 @@ const triggerSet: TriggerSet<Data> = {
         text: {
           en: 'Drop Puddle Outside',
           de: 'Lege Fläche außen ab',
-          cn: '去场边放火圈',
+          cn: '去场边放毒圈',
         },
       },
     },
