@@ -740,7 +740,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         witchgleamTimes: {
           en: '(${times} later)',
-          cn: '(${times} 层雷)',
+          cn: '(${times} 层)',
         },
       },
     },
