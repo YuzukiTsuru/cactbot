@@ -729,9 +729,9 @@ const triggerSet: TriggerSet<Data> = {
     },
     {
       id: 'R4S Witchgleam Self Reminder',
-      type: 'Ability',
-      netRegex: { id: '95CE' },
-      condition: (data) => {
+      type: 'StartsUsing',
+      netRegex: { id: '95CE', source: 'Wicked Thunder', capture: false },
+      condition: (data, _matches) => {
         if (data.condenserTimer === 'short') {
           return false;
         }
