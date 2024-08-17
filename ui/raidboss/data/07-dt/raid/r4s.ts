@@ -739,8 +739,8 @@ const triggerSet: TriggerSet<Data> = {
       },
       outputStrings: {
         witchgleamTimes: {
-          en: '(${times} later)',
-          cn: '(${times} 层)',
+          en: '(${times} stacks （later）)',
+          cn: '(稍后 ${times} 层)',
         },
       },
     },
