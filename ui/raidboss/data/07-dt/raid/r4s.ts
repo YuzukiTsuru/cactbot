@@ -731,8 +731,8 @@ const triggerSet: TriggerSet<Data> = {
       id: 'R4S Witchgleam Self Reminder',
       type: 'StartsUsing',
       netRegex: { id: '95CE', source: 'Wicked Thunder', capture: false },
-      delaySeconds: 3,
       condition: (data) => data.condenserTimer === 'long',
+      delaySeconds: 3,
       infoText: (data, _matches, output) => {
         if (data.condenserTimer === 'long') {
           return output.witchgleamTimes!({ times: data.witchgleamSelfCount - 1 });
