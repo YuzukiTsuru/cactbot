@@ -725,8 +725,19 @@ const triggerSet: TriggerSet<Data> = {
       type: 'Ability',
       netRegex: { id: '9786' },
       condition: Conditions.targetIsYou(),
+      run: (data) => data.witchgleamSelfCount++,
+    },
+    {
+      id: 'R4S Witchgleam Self Reminder',
+      type: 'Ability',
+      netRegex: { id: '95CE' },
+      condition: (data) => {
+        if (data.condenserTimer === 'short') {
+          return false;
+        }
+        return true;
+      },
       infoText: (data, _matches, output) => {
-        data.witchgleamSelfCount++;
         if (data.condenserTimer === 'long') {
           return output.witchgleamTimes!({ times: data.witchgleamSelfCount - 1 });
         }
@@ -734,8 +745,8 @@ const triggerSet: TriggerSet<Data> = {
       },
       outputStrings: {
         witchgleamTimes: {
-          en: '${times}',
-          cn: '${times}',
+          en: '(${times} later)',
+          cn: '(${times} 层雷)',
         },
       },
     },
