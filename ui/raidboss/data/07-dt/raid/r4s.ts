@@ -732,12 +732,7 @@ const triggerSet: TriggerSet<Data> = {
       type: 'StartsUsing',
       netRegex: { id: '95CE', source: 'Wicked Thunder', capture: false },
       delaySeconds: 3,
-      condition: (data, _matches) => {
-        if (data.condenserTimer === 'short') {
-          return false;
-        }
-        return true;
-      },
+      condition: (data) => data.condenserTimer === 'long',
       infoText: (data, _matches, output) => {
         if (data.condenserTimer === 'long') {
           return output.witchgleamTimes!({ times: data.witchgleamSelfCount - 1 });
