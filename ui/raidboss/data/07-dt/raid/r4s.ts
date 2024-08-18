@@ -736,7 +736,7 @@ const triggerSet: TriggerSet<Data> = {
       infoText: (data, _matches, output) => output.witchgleamTimes!({ times: data.witchgleamSelfCount }),
       outputStrings: {
         witchgleamTimes: {
-          en: '(${times} stacks （later）)',
+          en: '${times} stacks (later)',
           cn: '(稍后 ${times} 层)',
         },
       },
