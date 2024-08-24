@@ -87,10 +87,12 @@ const triggerSet: TriggerSet<Data> = {
       name: {
         en: 'Barbarous Barrage Uptime Knockback',
         de: 'Brutalo-Bomben Uptime Rückstoß',
+        cn: '塔击退提示功能',
       },
       comment: {
         en: 'Select towers to dodge with knockback immunity.',
         de: 'Wähle welche Türme mit Rückstoß-Immunität genommen werden.',
+        cn: '选择需要提示的塔.',
       },
       type: 'select',
       options: {
@@ -105,6 +107,12 @@ const triggerSet: TriggerSet<Data> = {
           'Erster Turm': 'first',
           'Ersten zwei Türme (empfohlen)': 'two',
           'Alle drei Türme': 'all',
+        },
+        cn: {
+          '关闭功能': 'none',
+          '只提示第一个塔': 'first',
+          '提示前两个塔 (推荐)': 'two',
+          '提示全部塔': 'all',
         },
       },
       default: 'none',
