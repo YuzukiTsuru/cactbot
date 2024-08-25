@@ -87,7 +87,7 @@ const triggerSet: TriggerSet<Data> = {
       name: {
         en: 'Barbarous Barrage Uptime Knockback',
         de: 'Brutalo-Bomben Uptime Rückstoß',
-        cn: '塔击退提示功能',
+        cn: '击退塔uptime打法击退提示时机调整功能',
       },
       comment: {
         en: 'Select towers to dodge with knockback immunity.',
