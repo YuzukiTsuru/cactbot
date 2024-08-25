@@ -110,9 +110,9 @@ const triggerSet: TriggerSet<Data> = {
         },
         cn: {
           '关闭功能': 'none',
-          '只提示第一个塔': 'first',
-          '提示前两个塔 (推荐)': 'two',
-          '提示全部塔': 'all',
+          '第一个塔': 'first',
+          '前两个塔 (推荐)': 'two',
+          '全部塔': 'all',
         },
       },
       default: 'none',
