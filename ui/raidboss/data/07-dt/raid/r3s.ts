@@ -92,7 +92,7 @@ const triggerSet: TriggerSet<Data> = {
       comment: {
         en: 'Select towers to dodge with knockback immunity.',
         de: 'Wähle welche Türme mit Rückstoß-Immunität genommen werden.',
-        cn: '选择需要提示的塔.',
+        cn: '选择防击退覆盖的塔。',
       },
       type: 'select',
       options: {
