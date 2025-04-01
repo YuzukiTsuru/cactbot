@@ -378,7 +378,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         stacks: {
           en: 'Support/DPS stacks',
-          cn: '分摊',
+          cn: '红地板分摊',
         },
       },
     },
