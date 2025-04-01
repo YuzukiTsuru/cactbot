@@ -327,11 +327,11 @@ const triggerSet: TriggerSet<Data> = {
         },
         swapAfterFirst: {
           en: '${first} bait first, Swap after first+third',
-          cn: '先 ${first} 引导, 2 4 交换',
+          cn: '先 ${first} 引导, 1、3刀后交换',
         },
         swapAfterSecond: {
           en: '${first} bait first, Swap after second',
-          cn: '先 ${first} 引导, 3 交换',
+          cn: '先 ${first} 引导, 2刀后交换',
         },
       },
     },
