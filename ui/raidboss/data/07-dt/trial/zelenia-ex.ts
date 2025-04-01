@@ -444,7 +444,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         text: {
           en: 'Supports west, DPS east',
-          cn: 'TN 西, DPS 东',
+          cn: 'T奶 左, DPS 右',
         },
       },
     },
