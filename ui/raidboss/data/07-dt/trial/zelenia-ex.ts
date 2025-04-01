@@ -618,7 +618,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         north: {
           en: 'Roses north, spreads south',
-          cn: '蔷薇北, 分散南',
+          cn: '蔷薇上, 分散下',
         },
         south: {
           en: 'Roses south, spreads north',
