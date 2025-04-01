@@ -813,11 +813,11 @@ const triggerSet: TriggerSet<Data> = {
         out: Outputs.out,
         rose: {
           en: 'Place rose ${inOut} => dodge cleaves',
-          cn: '${inOut} 放置蔷薇 => 远离扇形',
+          cn: '${inOut} 放置蔷薇 => 躲避扇形',
         },
         tower: {
           en: 'Dodge cleaves => soak tower',
-          cn: '远离扇形 => 踩塔',
+          cn: '躲避扇形 => 踩塔',
         },
       },
     },
