@@ -553,19 +553,19 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         inWest: {
           en: 'In WSW => Out WNW => Out WSW',
-          cn: '内西偏南 => 外西偏北 => 外西偏南',
+          cn: '内左偏下 => 外左偏上 => 外左偏下',
         },
         inEast: {
           en: 'In ESE => Out ESE => Out ENE',
-          cn: '内东偏南 => 外东偏南 => 外东偏北',
+          cn: '内东偏下 => 外东偏下 => 外东偏上',
         },
         outWest: {
           en: 'Out WSW => In WNW => In WSW',
-          cn: '外西偏南 => 内西偏北 => 内西偏南',
+          cn: '外左偏下 => 内左偏上 => 内左偏下',
         },
         outEast: {
           en: 'Out ESE => In ESE => In ENE',
-          cn: '外东偏南 => 内东偏南 => 内东偏北',
+          cn: '外东偏下 => 内东偏下 => 内东偏上',
         },
       },
     },
