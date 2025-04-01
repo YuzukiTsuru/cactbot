@@ -557,7 +557,7 @@ const triggerSet: TriggerSet<Data> = {
         },
         inEast: {
           en: 'In ESE => Out ESE => Out ENE',
-          cn: '内东偏下 => 外东偏下 => 外东偏上',
+          cn: '内右偏下 => 外右偏下 => 外右偏上',
         },
         outWest: {
           en: 'Out WSW => In WNW => In WSW',
