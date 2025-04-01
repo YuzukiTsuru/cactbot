@@ -622,7 +622,7 @@ const triggerSet: TriggerSet<Data> = {
         },
         south: {
           en: 'Roses south, spreads north',
-          cn: '蔷薇南, 分散北',
+          cn: '蔷薇下, 分散上',
         },
       },
     },
