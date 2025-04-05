@@ -196,6 +196,7 @@ const triggerSet: TriggerSet<Data> = {
         ...Directions.outputStringsIntercardDir,
         text: {
           en: 'Start ${dir1}, launch towards ${dir2}',
+          cn: '从 ${dir1}, 向 ${dir2} 发射',
         },
       },
     },
