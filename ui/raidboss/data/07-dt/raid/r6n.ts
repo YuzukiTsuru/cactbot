@@ -326,7 +326,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         stacks: {
           en: 'Healer Groups (in water)',
-          cn: '治疗组分摊 (站在水里)',
+          cn: '治疗分组分摊 (站在水里)',
         },
       },
     },
