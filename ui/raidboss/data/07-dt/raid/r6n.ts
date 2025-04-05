@@ -339,7 +339,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         spread: {
           en: 'Spread (not in water)',
-          cn: '分散 (站在水里)',
+          cn: '分散 (站在岸上)',
         },
       },
     },
