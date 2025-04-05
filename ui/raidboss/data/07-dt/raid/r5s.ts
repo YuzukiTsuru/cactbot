@@ -167,7 +167,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         shortBurn: {
           en: '(short cleanse)',
-          cn: '(长舞点名)',
+          cn: '(短舞点名)',
         },
         longBurn: {
           en: '(long cleanse)',
