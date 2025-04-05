@@ -265,7 +265,7 @@ const triggerSet: TriggerSet<Data> = {
       outputStrings: {
         outsideIn: {
           en: 'Under => Max Melee',
-          cn: '月环 => 最大近战距离',
+          cn: '月环 => 钢铁',
         },
       },
     },
