@@ -468,7 +468,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Stack on ${target} x5',
           fr: 'Package sur ${target} x5',
           ja: '${target} に 5回 連続頭割り',
-          cn: '${target} 分摊 x5',
+          cn: '分摊五连点 ${target} ',
           ko: '쉐어 x5 ${target}',
         },
       },
