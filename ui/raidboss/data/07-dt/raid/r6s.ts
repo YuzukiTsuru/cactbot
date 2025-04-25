@@ -328,7 +328,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Defamation on YOU (for later)',
           fr: 'Diffamation sur VOUS (pour après)',
           ja: 'あとで巨大な爆発',
-          cn: '稍后放置篮圈',
+          cn: '稍后放大圈',
           ko: '광역징 대상자 (나중에)',
         },
       },
