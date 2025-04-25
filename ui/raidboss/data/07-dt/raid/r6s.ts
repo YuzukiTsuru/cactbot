@@ -404,7 +404,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Avoid arrow lines',
           fr: 'Évitez les lignes de flèches',
           ja: '矢印線を避ける',
-          cn: '躲避场边射箭AoE',
+          cn: '躲避场边箭直线',
           ko: '화살 직선 장판 피하기',
         },
       },
