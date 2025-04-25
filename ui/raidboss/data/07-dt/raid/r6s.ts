@@ -160,16 +160,19 @@ const triggerSet: TriggerSet<Data> = {
         avoidCleave: {
           en: 'Be on boss hitbox (avoid tank cleaves)',
           ja: 'ボス背面のサークル上に',
+          cn: '站在目标圈上 (远离坦克死刑)',
           ko: '보스 히트박스 경계에 있기 (광역 탱버 피하기)',
         },
         warmCleave: {
           en: 'Tank cleave on YOU (${dir} => get hit by Red)',
           ja: 'タンク攻撃 (${dir} => 赤に当たる)',
+          cn: '坦克死刑 (${dir} => 红点名)',
           ko: '광역 탱버 대상자 (${dir} => 빨간색 맞기)',
         },
         coolCleave: {
           en: 'Tank cleave on YOU (${dir} => get hit by Blue)',
           ja: 'タンク攻撃 (${dir} => 青に当たる)',
+          cn: '坦克死刑 (${dir} => 蓝点名)',
           ko: '광역 탱버 대상자 (${dir} => 파란색 맞기)',
         },
         tankCleave: Outputs.tankCleaveOnYou,
@@ -321,6 +324,7 @@ const triggerSet: TriggerSet<Data> = {
         defamationLater: {
           en: 'Defamation on YOU (for later)',
           ja: 'あとで巨大な爆発',
+          cn: '稍后放置篮圈',
           ko: '광역징 대상자 (나중에)',
         },
       },
@@ -352,11 +356,13 @@ const triggerSet: TriggerSet<Data> = {
         bomb: {
           en: 'Drop bomb in quicksand',
           ja: '爆弾を流砂に捨てる',
+          cn: '流沙里放置炸弹',
           ko: '늪에 폭탄 놓기',
         },
         wingedBomb: {
           en: 'Aim bomb towards quicksand',
           ja: '爆弾を流砂に向ける',
+          cn: '面向流沙放置飞弹',
           ko: '늪 쪽을 향해 폭탄 놓기',
         },
       },
@@ -371,6 +377,7 @@ const triggerSet: TriggerSet<Data> = {
         text: {
           en: 'Jabberwock on YOU',
           ja: 'ジャバウォック処理',
+          cn: '马止步点名',
           ko: '재버워크 대상자',
         },
       },
@@ -390,6 +397,7 @@ const triggerSet: TriggerSet<Data> = {
         text: {
           en: 'Avoid arrow lines',
           ja: '矢印線を避ける',
+          cn: '躲避场边射箭AoE',
           ko: '화살 직선 장판 피하기',
         },
       },
@@ -405,11 +413,13 @@ const triggerSet: TriggerSet<Data> = {
         fire: {
           en: 'Healer groups in water, avoid arrow lines',
           ja: 'ヒラ組で水へ、矢印線を避ける',
+          cn: '双奶水中四四分摊 + 躲避场边射箭AoE',
           ko: '물에서 힐러 그룹, 화살 직선 장판 피하기',
         },
         thunder: {
           en: 'Spread out of water, avoid arrow lines',
           ja: '水を避けて散開、矢印線を避ける',
+          cn: '远离水分散 + 躲避场边射箭AoE',
           ko: '물 밖에서 산개, 화살 직선 장판 피하기',
         },
       },
@@ -441,11 +451,13 @@ const triggerSet: TriggerSet<Data> = {
         stackOnYou: {
           en: 'Stack on YOU x5',
           ja: '5回連続頭割り',
+          cn: '分摊 x5 点名',
           ko: '쉐어 x5 대상자',
         },
         stackOn: {
           en: 'Stack on ${target} x5',
           ja: '${target} に 5回 連続頭割り',
+          cn: '${target} 分摊 x5',
           ko: '쉐어 x5 ${target}',
         },
       },
@@ -485,15 +497,19 @@ const triggerSet: TriggerSet<Data> = {
         unknown: Outputs.unknown,
         pattern1: {
           en: 'Cactus Pattern 1',
+          cn: '仙人掌类型 1',
         },
         pattern2: {
           en: 'Cactus Pattern 2 (bad)',
+          cn: '仙人掌类型 2 (较差)',
         },
         pattern3: {
           en: 'Cactus Pattern 3',
+          cn: '仙人掌类型 3',
         },
         pattern4: {
           en: 'Cactus Pattern 4',
+          cn: '仙人掌类型 4',
         },
       },
     },
@@ -530,6 +546,7 @@ const triggerSet: TriggerSet<Data> = {
         ...Directions.outputStrings8Dir,
         cactus: {
           en: 'Danger Cactus ${dir}',
+          cn: '危险仙人掌 ${dir}',
         },
       },
     },
