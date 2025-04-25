@@ -421,7 +421,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Healer groups in water, avoid arrow lines',
           fr: 'Groupes sur les heals dans l\'eau, évitez les lignes de flèches',
           ja: 'ヒラ組で水へ、矢印線を避ける',
-          cn: '双奶水中四四分摊 + 躲避场边射箭AoE',
+          cn: '水中双奶分组分摊 + 躲避场边箭直线',
           ko: '물에서 힐러 그룹, 화살 직선 장판 피하기',
         },
         thunder: {
