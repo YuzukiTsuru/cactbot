@@ -428,7 +428,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Spread out of water, avoid arrow lines',
           fr: 'Dipersion hors de l\'eau, évitez les lignes de flèches',
           ja: '水を避けて散開、矢印線を避ける',
-          cn: '远离水分散 + 躲避场边射箭AoE',
+          cn: '陆地分散 + 躲避场边箭直线',
           ko: '물 밖에서 산개, 화살 직선 장판 피하기',
         },
       },
