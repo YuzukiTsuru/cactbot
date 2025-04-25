@@ -461,7 +461,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Stack on YOU x5',
           fr: 'Package sur VOUS x5',
           ja: '5回連続頭割り',
-          cn: '分摊 x5 点名',
+          cn: '分摊五连点名',
           ko: '쉐어 x5 대상자',
         },
         stackOn: {
