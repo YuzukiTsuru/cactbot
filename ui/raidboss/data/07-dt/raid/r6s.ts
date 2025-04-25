@@ -168,7 +168,7 @@ const triggerSet: TriggerSet<Data> = {
           en: 'Tank cleave on YOU (${dir} => get hit by Red)',
           fr: 'Tank cleave sur VOUS (${dir} => prenez le Rouge)',
           ja: 'タンク攻撃 (${dir} => 赤に当たる)',
-          cn: '坦克死刑 (${dir} => 红点名)',
+          cn: '坦克死刑 (${dir} => 吃红色)',
           ko: '광역 탱버 대상자 (${dir} => 빨간색 맞기)',
         },
         coolCleave: {
