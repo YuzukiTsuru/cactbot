@@ -810,7 +810,7 @@ const triggerSet: TriggerSet<Data> = {
         eightSouth: {
           en: '8 Towers S',
           de: '8 Türme S',
-          cn: '南方八人塔',
+          cn: '南方八塔',
           ko: '남쪽 탑 8개',
         },
         fourNW: {
