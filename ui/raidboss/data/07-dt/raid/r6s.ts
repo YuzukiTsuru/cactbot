@@ -822,7 +822,7 @@ const triggerSet: TriggerSet<Data> = {
         fourNE: {
           en: '4 Towers NE',
           de: '4 Türme NO',
-          cn: '东北四人塔',
+          cn: '东北四塔',
           ko: '북동쪽 탑 4개',
         },
       },
