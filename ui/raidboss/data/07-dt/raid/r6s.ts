@@ -816,7 +816,7 @@ const triggerSet: TriggerSet<Data> = {
         fourNW: {
           en: '4 Towers NW',
           de: '4 Türme NW',
-          cn: '西北四人塔',
+          cn: '西北四塔',
           ko: '북서쪽 탑 4개',
         },
         fourNE: {
